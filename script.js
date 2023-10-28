@@ -138,7 +138,7 @@ const material1 = new THREE.MeshStandardMaterial({
 // Load the model
 const objloader = new OBJLoader();
 objloader.load(
-  "https://github.com/dougbutner/puma.red/blob/main/assets/pumahead.obj",
+  "https://raw.githubusercontent.com/dougbutner/puma.red/main/assets/pumahead.obj",
   (object) => {
     object.children[0].material = material1;
     object.scale.setScalar(20);
