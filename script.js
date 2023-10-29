@@ -92,9 +92,10 @@ var scene = new THREE.Scene();
 const hdrEquirect = new RGBELoader()
   // add your HDR //
   .setPath(
-    "https://raw.githubusercontent.com/miroleon/gradient_hdr_freebie/main/Gradient_HDR_Freebies/"
+    //"https://raw.githubusercontent.com/miroleon/gradient_hdr_freebie/main/Gradient_HDR_Freebies/"
+    "https://github.com/KABIR-VERMA/Tone-Mapping-HDR-Images/raw/master/"
   )
-  .load("ml_gradient_freebie_01.hdr", function () {
+  .load(/*"ml_gradient_freebie_01.hdr"*/"rosette.hdr", function () {
     hdrEquirect.mapping = THREE.EquirectangularReflectionMapping;
   });
 scene.environment = hdrEquirect;
@@ -141,7 +142,7 @@ objloader.load(
   "https://raw.githubusercontent.com/dougbutner/puma.red/main/assets/pumahead.obj",
   (object) => {
     object.children[0].material = material1;
-    object.scale.setScalar(3.69);
+    object.scale.setScalar(3);
     object.position.set(0, -0.25, 0);
     group.add(object);
   }
