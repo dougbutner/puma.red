@@ -22,12 +22,6 @@ let ease = 0.001;
 // Define a global variable to connect scroll-based animations to 3D animations.
 let theta1 = 0;
 
-document.addEventListener('DOMContentLoaded', function() {
-  var cancion = document.getElementById('cancion');
-  cancion.play();
-});
-
-
 // This function updates the scale and position of the elements on scroll
 function updateScale() {
   // Get the top and bottom position of the canvasRect element relative to the viewport.
