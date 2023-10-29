@@ -17,6 +17,8 @@ let currentScroll = 0;
 let targetScroll = 0;
 let ease = 0.001;
 
+
+
 // Define a global variable to connect scroll-based animations to 3D animations.
 let theta1 = 0;
 
