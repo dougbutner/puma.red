@@ -141,7 +141,7 @@ objloader.load(
   "https://raw.githubusercontent.com/dougbutner/puma.red/main/assets/pumahead.obj",
   (object) => {
     object.children[0].material = material1;
-    object.scale.setScalar(1);
+    object.scale.setScalar(3.69);
     object.position.set(0, -0.25, 0);
     group.add(object);
   }
