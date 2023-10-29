@@ -93,7 +93,7 @@ const hdrEquirect = new RGBELoader()
   // add your HDR //
   .setPath(
     //"https://raw.githubusercontent.com/miroleon/gradient_hdr_freebie/main/Gradient_HDR_Freebies/"
-    "https://github.com/KABIR-VERMA/Tone-Mapping-HDR-Images/raw/master/"
+    "https://raw.githubusercontent.com/KABIR-VERMA/Tone-Mapping-HDR-Images/master/"
   )
   .load(/*"ml_gradient_freebie_01.hdr"*/"rosette.hdr", function () {
     hdrEquirect.mapping = THREE.EquirectangularReflectionMapping;
