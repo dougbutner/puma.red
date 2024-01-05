@@ -12,6 +12,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  max-height: 100vh;
   overflow-x: hidden;
   background-color: var(--background-color);
   font-family: "Open Sans", sans-serif;
